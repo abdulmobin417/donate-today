@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@800&family=Poppins:wght@500&display=swap");
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  background-image: url(./images/donation7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  color: white;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.header h1 {
+  font-size: 40px;
+  padding-top: 10%;
+  margin: 0;
+}
+
+.header p {
+  margin-bottom: 40px;
+}
+
+.anchor-link {
+  text-decoration: none;
+  background-color: rgb(255, 89, 89);
+  color: white;
+  padding: 0.8% 1%;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.donate {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.donate h1 {
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.amount {
+  display: flex;
+  margin: 4% 22%;
+}
+
+.amount h2 {
+  margin: 0% 5%;
+  /* padding: 3.5% 2.5%; */
+  color: rgb(112, 112, 112);
+  margin-bottom: 20px;
+}
+
+#two-hundred {
+  background-color: rgb(255, 238, 238);
+  border: 2px solid rgb(255, 93, 93);
+  padding: 3.5% 2.5%;
+  border-radius: 5px;
+  color: rgb(255, 93, 93);
+}
+
+.tk {
+  padding: 3.5% 0;
+}
+
+#other-amount {
+  color: rgb(179, 179, 179);
+  margin-bottom: 0;
+}
+
+hr.new {
+  border-top: 1px solid rgba(184, 180, 180, 0.463);
+  width: 55%;
+  margin-bottom: 40px;
+}
+
+.donate-anchor-link {
+  margin-bottom: 100px;
+}
+
+.donate-plan {
+  display: flex;
+  flex-direction: column;
+}
+
+.donate-heading {
+  text-align: center;
+}
+
+.donate-heading h1{
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.donate-heading p{
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.donate-item {
+  display: flex;
+  margin: 0 8%;
+}
+
+.donate-item div {
+  width: 46%;
+  border-radius: 5px;
+  padding: 5% 1.5%;
+  margin: 2% 1.5%;
+}
+
+.food{
+    background-color: rgb(237, 245, 246);
+}
+
+.shelter{
+    background-color: rgb(255, 238, 238);
+}
+
+.frame-1{
+    background-color: rgb(255, 244, 214);
+}
