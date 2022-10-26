@@ -89,20 +89,21 @@ hr.new {
 .donate-plan {
   display: flex;
   flex-direction: column;
+  margin-bottom: 100px;
 }
 
 .donate-heading {
   text-align: center;
 }
 
-.donate-heading h1{
-    font-size: 35px;
-    margin-bottom: 0;
+.donate-heading h1 {
+  font-size: 35px;
+  margin-bottom: 0;
 }
 
-.donate-heading p{
-    font-size: 15px;
-    margin-bottom: 50px;
+.donate-heading p {
+  font-size: 15px;
+  margin-bottom: 50px;
 }
 
 .donate-item {
@@ -117,14 +118,62 @@ hr.new {
   margin: 2% 1.5%;
 }
 
-.food{
-    background-color: rgb(237, 245, 246);
+.food {
+  background-color: rgb(237, 245, 246);
 }
 
-.shelter{
-    background-color: rgb(255, 238, 238);
+.shelter {
+  background-color: rgb(255, 238, 238);
 }
 
-.frame-1{
-    background-color: rgb(255, 244, 214);
+.frame-1 {
+  background-color: rgb(255, 244, 214);
+}
+
+.their-lives{
+    width: 90%;
+}
+
+.half-width {
+  width: 32%;
+  float: left;
+  margin-bottom: 80px;
+}
+
+.first {
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-right: 3%;
+}
+
+.first h1 {
+  font-size: 34px;
+}
+
+.first p {
+  font-size: 15px;
+}
+
+#last-p{
+    margin-bottom: 40px;
+}
+
+.contribute {
+  padding: 2% 3%;
+}
+
+.half-width img{
+    margin-left: 30%;
+    width: 115%;
+    height: 440px;
+    border-radius: 10px;
+}
+
+.survive{
+  width: 90%;
+}
+
+.last{
+    margin-left: 23%;
+    margin-top: 3%;
 }
