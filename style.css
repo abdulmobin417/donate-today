@@ -132,11 +132,12 @@ hr.new {
 
 .their-lives{
     width: 90%;
+    display: flex;
 }
 
 .half-width {
   width: 32%;
-  float: left;
+  /* float: left; */
   margin-bottom: 80px;
 }
 
@@ -171,9 +172,13 @@ hr.new {
 
 .survive{
   width: 90%;
+  display: flex;
 }
 
 .last{
     margin-left: 23%;
     margin-top: 3%;
+}
+
+.update{
 }
